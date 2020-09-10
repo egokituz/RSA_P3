@@ -1,32 +1,37 @@
-# Prerequisites
-*.d
+### NetBeans specific ###
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+**/nbproject/private/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+**/build/
+**/nbbuild/
+**/dist/
+**/nbdist/
+nbactions.xml
+nb-configuration.xml
 
-# Precompiled Headers
-*.gch
-*.pch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
 
-# Fortran module files
-*.mod
-*.smod
+# Dump file
+*.stackdump
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Folder config file
+[Dd]esktop.ini
 
-# Executables
-*.exe
-*.out
-*.app
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+# CMake
+**/cmake-build-*/
