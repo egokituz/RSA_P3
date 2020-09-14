@@ -10,6 +10,7 @@
 **/nbbuild/
 **/dist/
 **/nbdist/
+**/.nb-gradle/
 nbactions.xml
 nb-configuration.xml
 
@@ -33,5 +34,25 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# CMake
+# Dropbox settings and caches
+.dropbox
+.dropbox.attr
+.dropbox.cache
+
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+
+### CMake ###
 **/cmake-build-*/
+
